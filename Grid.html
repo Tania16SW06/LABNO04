@@ -1,0 +1,54 @@
+<html>
+<head>
+	<style type="text/css">
+*{
+margin: 0px;
+padding: 0px;
+border: solid;
+background-color: #2196F3;
+text-align: center;
+
+}
+
+
+.container
+{
+	display: grid;
+	 grid-template-columns: [first] 300px [line2] 740px [line3] 300px [end]; 
+grid-template-rows: 80px 450px  80px;
+
+}
+.item1{
+  grid-column: 1 / span 4;
+
+}
+.item2{
+	grid-row:2
+  grid-column: 1 /span 1; }
+
+.item3{
+	grid-row:2
+  grid-column: 2 / span 3;
+  justify-content: center;
+}
+.item4{
+	grid-row:2
+  grid-column: 3 / span 1 ;
+}
+
+.item5{
+	  grid-column: 1 / span 4;
+}
+
+	</style>
+	</head>
+<body>
+<div class="container">
+ <div class="item1"> GRID LAYOUT</div>
+ <div class="item2">HELLO</div>
+  <div class="item3">HOW ARE U</div>
+   <div class="item4">WELCOME</div>
+ <div class="item5">FUNNY</div>
+
+</body>
+	</html>

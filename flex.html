@@ -1,0 +1,52 @@
+<html>
+<head>
+	<style type="text/css">
+*{
+
+	border: solid;
+margin: 0px;
+padding: 0px;
+font-size: 30px;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+	flex-wrap: wrap;
+
+
+}
+.flexitem1{
+	height: 80px;
+}
+
+.flexitem2{
+	display: inline-flex;
+	flex-direction: row;
+height: 420px;
+
+}
+.flexitem3{
+	height: 90px;
+}
+	</style>
+
+<title>Html</title>
+</head>
+<body>
+<div class="flex">
+<div class=flexitem1>
+HEADER
+</div>
+
+<div class=flexitem2>
+	<div style="flex-grow: 1">ASIDE1</div>
+<div  style="flex-grow: 3">MAIN</div>
+<div style="flex-grow: 1">ASIDE2</div>
+</div>
+
+<div class=flexitem3>FOOTER</div>
+</div>
+</body>
+</html>
